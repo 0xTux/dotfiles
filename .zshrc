@@ -1,5 +1,9 @@
 # Custom
 
+# pnpm
+export PNPM_HOME="/home/tux/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
 # Set Go PATH
 export PATH=$PATH:/usr/local/go/bin
 
