@@ -1,4 +1,8 @@
 # Custom
+
+# Set Go PATH
+export PATH=$PATH:/usr/local/go/bin
+
 # pfetch
 export PF_INFO="ascii title os uptime pkgs memory palette"
 export PF_ALIGN=10
