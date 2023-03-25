@@ -2,6 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
 	"version": 2,
 	"console_title_template": "{{ if .WSL }} WSL",
+	"final_space": true,
 	"blocks": [
 		{
 			"type": "prompt",
@@ -24,13 +25,13 @@
 				{
 					"background": "232",
 					"foreground": "001",
-					"powerline_symbol": "\ue0b0 ",
+					"powerline_symbol": "\ue0b0",
 					"style": "powerline",
 					"properties": {
 						"style": "powerlevel",
 						"home_icon": "\uf015 ~"
 					},
-					"template": "{{ .Path }} ",
+					"template": " {{ .Path }} ",
 					"type": "path"
 				}
 			]
