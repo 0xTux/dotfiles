@@ -12,4 +12,4 @@ export PF_ALIGN=10
 pfetch
 
 # Ohmyposh
-eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/1_shell.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/blue-heaven.json)"
